@@ -1,19 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="" />
+    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Init">
+      <change beforePath="$PROJECT_DIR$/.idea/Lumen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lumen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/.styleci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Console/Commands/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Console/Commands/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Console/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Events/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Events/Event.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Events/ExampleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Events/ExampleEvent.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Http/Controllers/Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Http/Controllers/ExampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Http/Controllers/ExampleController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Http/Middleware/Authenticate.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Http/Middleware/ExampleMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Http/Middleware/ExampleMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Jobs/ExampleJob.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Jobs/ExampleJob.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Jobs/Job.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Jobs/Job.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Listeners/ExampleListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Listeners/ExampleListener.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Providers/EventServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Author.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/artisan" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/database/factories/ModelFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/database/factories/ModelFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/database/migrations/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/database/migrations/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/public/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/resources/views/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/resources/views/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/framework/cache/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/framework/cache/data/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/framework/views/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/logs/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/tests/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/tests/ExampleTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/tests/TestCase.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/Udemy-Lumen-learn/composer.json</pharConfigPath>
     <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/composer" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/laravel/lumen-framework" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/session" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/console" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/validation" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/log" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/queue" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/view" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/http" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/testing" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/hashing" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/filesystem" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/auth" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/config" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/translation" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/cache" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/broadcasting" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/pagination" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/illuminate/encryption" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/Udemy-Lumen-learn/vendor/voku/portable-ascii" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1hBckSHwAIZYIYkrMIWfCZeK7FQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -22,6 +192,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -32,11 +208,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599488069215</updated>
-      <workItem from="1599488070521" duration="284000" />
+      <workItem from="1599488070521" duration="593000" />
+      <workItem from="1599567938945" duration="3261000" />
+      <workItem from="1599655303266" duration="3033000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1599488520396</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599488520396</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4014" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599571361031">
+      <screen x="3360" y="15" width="1920" height="1080" />
+    </state>
+    <state x="4014" y="341" key="#com.intellij.fileTypes.FileTypeChooser/1920.70.1440.900/3360.15.1920.1080/0.0.1920.1080@3360.15.1920.1080" timestamp="1599571361031" />
+    <state x="3978" y="88" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599657467588">
+      <screen x="3360" y="38" width="1920" height="1057" />
+    </state>
+    <state x="3978" y="88" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.93.1440.877/3360.38.1920.1057/0.23.1920.1004@3360.38.1920.1057" timestamp="1599657467588" />
+    <state x="3820" y="227" key="Vcs.Push.Dialog.v2" timestamp="1599488522467">
+      <screen x="3360" y="15" width="1920" height="1080" />
+    </state>
+    <state x="3820" y="227" key="Vcs.Push.Dialog.v2/1920.70.1440.900/3360.15.1920.1080/0.0.1920.1080@3360.15.1920.1080" timestamp="1599488522467" />
   </component>
 </project>

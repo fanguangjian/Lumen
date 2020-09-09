@@ -16,9 +16,10 @@ use Faker\Generator as Faker;
 |
 */
 
-$factory->define(User::class, function (Faker $faker) {
+$factory->define(\App\Author::class, function (Faker $faker) {
     return [
-        'name' => $faker->name,
-        'email' => $faker->email,
+        'gender' => $gender = $faker-> randomElement(['male', 'female']),
+        'name' => $faker->name($gender),
+        'country' => $faker->country,
     ];
 });
