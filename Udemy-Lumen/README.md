@@ -32,3 +32,7 @@ php artisan migrate
 php artisan db:seed
 如有错误, 使用:
 php artisan migrate:fresh --seed
+
+
+API:
+http://Udemy.com:8080/authors
