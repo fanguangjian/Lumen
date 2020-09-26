@@ -23,7 +23,6 @@ class AuthorController extends Controller
     /**
      * @Notes:
      * @Interface index
-     * @return Illuminate\Http\Response
      */
 
     public function index()
@@ -34,6 +33,9 @@ class AuthorController extends Controller
 
     }
 
+    /**
+     * @Notes: 添加数据
+     */
     public function store(Request $request)
     {
         $rules = [
@@ -46,19 +48,39 @@ class AuthorController extends Controller
         return $this->successResponse($author, Response::HTTP_CREATED);
     }
 
+    /**
+     * @Notes:  根据Id查询一条
+     * @Interface show
+     */
     public function show($author)
     {
-        //
+//        $author = Author::findOrFail($author);
+        $author = Author::find($author);
+        return $this->successResponse($author);
     }
 
     public function update(Request  $request, $author)
     {
-        //
+        $rules = [
+            'name' => 'max:255',
+            'gender' => 'max:255|in:male, female',
+            'country' => 'max:255',
+        ];
+        $this->validate($request, $rules);
+        $author = Author::findOrFail($author);
+        $author->fill($request->all());
+        if($author->isClean()){
+            return $this->errorResponse('At least one value must change', Response::HTTP_UNPROCESSABLE_ENTITY);
+        }
+        $author->save();
+        return $this->successResponse($author);
     }
 
-    public function destory($author)
+    public function destroy($author)
     {
-        //
+        $author = Author::findOrFail($author);
+        $author->delete();
+        return $this->successResponse($author);
     }
 
 

@@ -12,7 +12,8 @@
 */
 
 //$router->get('/', function () use ($router) {
-//    return $router->app->version();
+////    return $router->app->version();
+//    return date_default_timezone_get();
 //});
 
 $router->get('/authors', 'AuthorController@index');

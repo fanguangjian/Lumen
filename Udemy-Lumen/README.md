@@ -36,3 +36,7 @@ php artisan migrate:fresh --seed
 
 API:
 http://Udemy.com:8080/authors
+
+APP_TIMEZONE=Australia/Melbourne
+
+php -S localhost:8000 -t public
