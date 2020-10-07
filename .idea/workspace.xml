@@ -20,49 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Init">
-      <change beforePath="$PROJECT_DIR$/.idea/Lumen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lumen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/.styleci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Console/Commands/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Console/Commands/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Events/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Events/Event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Events/ExampleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Events/ExampleEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Http/Controllers/ExampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Http/Controllers/ExampleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Http/Middleware/ExampleMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Http/Middleware/ExampleMiddleware.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Jobs/ExampleJob.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Jobs/ExampleJob.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Jobs/Job.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Jobs/Job.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Listeners/ExampleListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Listeners/ExampleListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/app/Author.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/database/factories/ModelFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/database/factories/ModelFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/database/migrations/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/database/migrations/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/resources/views/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/resources/views/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/tests/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/tests/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Udemy-Lumen-learn/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/Udemy-Lumen/tests/TestCase.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,6 +169,7 @@
       <workItem from="1599488070521" duration="593000" />
       <workItem from="1599567938945" duration="3261000" />
       <workItem from="1599655303266" duration="3033000" />
+      <workItem from="1602076404903" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
