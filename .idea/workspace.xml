@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Init">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add Lumen book Microservices">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenBookApi/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenBookApi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenBookApi/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi/bootstrap/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +150,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -169,7 +173,11 @@
       <workItem from="1599488070521" duration="593000" />
       <workItem from="1599567938945" duration="3261000" />
       <workItem from="1599655303266" duration="3033000" />
-      <workItem from="1602076404903" duration="325000" />
+      <workItem from="1602076404903" duration="867000" />
+      <workItem from="1602077343614" duration="2000" />
+      <workItem from="1602413956271" duration="1153000" />
+      <workItem from="1602503766494" duration="1000" />
+      <workItem from="1602505105452" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
@@ -178,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1599488520396</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Change the folder name">
+      <created>1602076962036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602076962036</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add Lumen book Microservices">
+      <created>1602077069432</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602077069432</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,9 +220,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="Change the folder name" />
+    <MESSAGE value="Add Lumen book Microservices" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lumen book Microservices" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="3417" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602505793300">
+      <screen x="1920" y="23" width="2560" height="1417" />
+    </state>
+    <state x="3417" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1440.23.1440.877/1920.23.2560.1417/0.23.1920.991@1920.23.2560.1417" timestamp="1602505793300" />
     <state x="4014" y="341" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599571361031">
       <screen x="3360" y="15" width="1920" height="1080" />
     </state>
@@ -209,9 +237,10 @@
       <screen x="3360" y="38" width="1920" height="1057" />
     </state>
     <state x="3978" y="88" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.93.1440.877/3360.38.1920.1057/0.23.1920.1004@3360.38.1920.1057" timestamp="1599657467588" />
-    <state x="3820" y="227" key="Vcs.Push.Dialog.v2" timestamp="1599488522467">
-      <screen x="3360" y="15" width="1920" height="1080" />
+    <state x="2533" y="301" key="Vcs.Push.Dialog.v2" timestamp="1602077077141">
+      <screen x="1920" y="23" width="2560" height="1417" />
     </state>
+    <state x="2533" y="301" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/1920.23.2560.1417/0.23.1920.995@1920.23.2560.1417" timestamp="1602077077141" />
     <state x="3820" y="227" key="Vcs.Push.Dialog.v2/1920.70.1440.900/3360.15.1920.1080/0.0.1920.1080@3360.15.1920.1080" timestamp="1599488522467" />
   </component>
 </project>
