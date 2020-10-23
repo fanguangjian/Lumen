@@ -20,49 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add Lumen book Microservices">
-      <change afterPath="$PROJECT_DIR$/LumenBookApi8.0/database/factories/UserFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LumenBookAPI/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LumenBookAPI/app/Traits/ApiResponder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/.styleci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/.styleci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Console/Commands/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Console/Commands/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Console/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Console/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Events/Event.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Events/Event.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Events/ExampleEvent.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Events/ExampleEvent.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Http/Controllers/ExampleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Http/Controllers/ExampleController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Http/Middleware/Authenticate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Http/Middleware/ExampleMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Http/Middleware/ExampleMiddleware.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Jobs/ExampleJob.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Jobs/ExampleJob.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Jobs/Job.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Jobs/Job.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Listeners/ExampleListener.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Listeners/ExampleListener.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Models/Book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Providers/AuthServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/app/Providers/EventServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/app/Providers/EventServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/artisan" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/artisan" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/bootstrap/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/database/factories/UserFactory.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/database/migrations/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/database/migrations/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/database/migrations/2020_10_12_124636_create_books_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/database/migrations/2020_10_12_124636_create_books_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/phpunit.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/public/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/public/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/resources/views/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/resources/views/.gitkeep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/storage/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/storage/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/storage/framework/cache/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/storage/framework/cache/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/storage/framework/cache/data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/storage/framework/cache/data/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/storage/framework/views/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/storage/framework/views/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/storage/logs/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/storage/logs/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/tests/ExampleTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/tests/ExampleTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookApi/tests/TestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookApi8.0/tests/TestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenBookAPI/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookAPI/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -219,7 +180,8 @@
       <workItem from="1602503766494" duration="1000" />
       <workItem from="1602505105452" duration="2143000" />
       <workItem from="1603108507804" duration="458000" />
-      <workItem from="1603109322598" duration="1560000" />
+      <workItem from="1603109322598" duration="1885000" />
+      <workItem from="1603455685818" duration="1016000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
