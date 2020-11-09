@@ -7,7 +7,7 @@
     "require": {
         "php": "^7.2.5",
         "laravel/lumen-framework": "^7.0",
-      "ext-http": "*"
+         "ext-http": "*"
     },
     "require-dev": {
         "fzaninotto/faker": "^1.9.1",
