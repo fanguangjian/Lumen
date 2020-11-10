@@ -8,3 +8,5 @@
 
 composer create-project --prefer-dist laravel/lumen LumenBookApi
 
+composer create-project --prefer-dist laravel/lumen LumenGateway 6.x
+

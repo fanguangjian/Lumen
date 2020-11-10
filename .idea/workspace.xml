@@ -21,9 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add Lumen book Microservices">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenAuthorApi/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LumenAuthorApi/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookAPI/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookAPI/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenBookAPI/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookAPI/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +185,8 @@
       <workItem from="1604661723335" duration="39000" />
       <workItem from="1604661851422" duration="597000" />
       <workItem from="1604921543602" duration="556000" />
-      <workItem from="1604923651682" duration="1128000" />
+      <workItem from="1604923651682" duration="1484000" />
+      <workItem from="1605011305877" duration="456000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
