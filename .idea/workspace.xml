@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add Lumen book Microservices">
+    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add Lumen Gateway">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/bootstrap/app.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +151,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LumenGateway/app/Http/Controllers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,6 +160,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LumenGateway/app/Http/Controllers" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -186,7 +191,8 @@
       <workItem from="1604661851422" duration="597000" />
       <workItem from="1604921543602" duration="556000" />
       <workItem from="1604923651682" duration="1484000" />
-      <workItem from="1605011305877" duration="456000" />
+      <workItem from="1605011305877" duration="601000" />
+      <workItem from="1605178968104" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
@@ -209,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602077069432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add Lumen Gateway">
+      <created>1605011793948</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605011793948</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +244,8 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Change the folder name" />
     <MESSAGE value="Add Lumen book Microservices" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Lumen book Microservices" />
+    <MESSAGE value="Add Lumen Gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Lumen Gateway" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3417" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602505793300">
@@ -254,10 +268,11 @@
       <screen x="3360" y="69" width="1920" height="1001" />
     </state>
     <state x="3789" y="91" key="SettingsEditor/1920.203.1440.877/3360.69.1920.1001/0.23.1920.1057@3360.69.1920.1001" timestamp="1603108947183" />
-    <state x="2533" y="301" key="Vcs.Push.Dialog.v2" timestamp="1602077077141">
-      <screen x="1920" y="23" width="2560" height="1417" />
+    <state x="460" y="218" key="Vcs.Push.Dialog.v2" timestamp="1605011796143">
+      <screen x="0" y="23" width="1920" height="994" />
     </state>
     <state x="2533" y="301" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/1920.23.2560.1417/0.23.1920.995@1920.23.2560.1417" timestamp="1602077077141" />
+    <state x="460" y="218" key="Vcs.Push.Dialog.v2/-1440.94.1440.877/-3360.-11.1920.1057/0.23.1920.994@0.23.1920.994" timestamp="1605011796143" />
     <state x="3820" y="227" key="Vcs.Push.Dialog.v2/1920.70.1440.900/3360.15.1920.1080/0.0.1920.1080@3360.15.1920.1080" timestamp="1599488522467" />
   </component>
 </project>
