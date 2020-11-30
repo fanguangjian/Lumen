@@ -19,13 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add AuthorController &amp;&amp; BookController In Gateway">
+    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add consume Services In Gateway">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenGateway/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenGateway/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenGateway/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenGateway/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/app/Traits/ApiResponser.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/app/Traits/ApiResponser.php" afterDir="false" />
     </list>
+    <list id="e82a726b-e148-4a69-8dab-510822389aca" name="Add consume Services In Gateway" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +34,14 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="c9aa784f8b2ad1c1debacc67450ec82e9bdbb162" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+    <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -153,6 +158,7 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/LumenGateway/app" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -198,6 +204,7 @@
       <workItem from="1605011305877" duration="601000" />
       <workItem from="1605178968104" duration="1371000" />
       <workItem from="1606392782026" duration="2250000" />
+      <workItem from="1606741170383" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
@@ -258,7 +265,8 @@
     <MESSAGE value="Add Lumen book Microservices" />
     <MESSAGE value="Add Lumen Gateway" />
     <MESSAGE value="Add AuthorController &amp;&amp; BookController In Gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add AuthorController &amp;&amp; BookController In Gateway" />
+    <MESSAGE value="Add consume Services In Gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add consume Services In Gateway" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3417" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602505793300">
@@ -281,6 +289,10 @@
       <screen x="3360" y="69" width="1920" height="1001" />
     </state>
     <state x="3789" y="91" key="SettingsEditor/1920.203.1440.877/3360.69.1920.1001/0.23.1920.1057@3360.69.1920.1001" timestamp="1603108947183" />
+    <state x="-1085" y="325" key="VCS.ChangelistChooser" timestamp="1606657056071">
+      <screen x="-2560" y="-173" width="2560" height="1341" />
+    </state>
+    <state x="-1085" y="325" key="VCS.ChangelistChooser/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606657056071" />
     <state x="460" y="230" key="Vcs.Push.Dialog.v2" timestamp="1605184646101">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
