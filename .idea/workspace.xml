@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add consume Services In Gateway">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenGateway/app/Traits/ApiResponser.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/app/Traits/ApiResponser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/bootstrap/app.php" afterDir="false" />
     </list>
     <list id="e82a726b-e148-4a69-8dab-510822389aca" name="Add consume Services In Gateway" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -204,7 +204,7 @@
       <workItem from="1605011305877" duration="601000" />
       <workItem from="1605178968104" duration="1371000" />
       <workItem from="1606392782026" duration="2250000" />
-      <workItem from="1606741170383" duration="896000" />
+      <workItem from="1606741170383" duration="1509000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
@@ -248,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606741509412</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test">
+      <created>1606742076137</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1606742076137</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +300,14 @@
       <screen x="1920" y="203" width="1440" height="834" />
     </state>
     <state x="2498" y="367" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.203.1440.834/3360.46.1920.1080/0.23.1920.1057@1920.203.1440.834" timestamp="1603110646496" />
+    <state x="445" y="358" key="ComposerInitDialogKey" timestamp="1606742239459">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="445" y="358" key="ComposerInitDialogKey/0.0.1440.900/-2560.-196.2560.1440@0.0.1440.900" timestamp="1606742239459" />
+    <state x="519" y="360" width="402" height="185" key="NewPhpFileDialog" timestamp="1606742524996">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="519" y="360" width="402" height="185" key="NewPhpFileDialog/0.0.1440.900/-2560.-196.2560.1440@0.0.1440.900" timestamp="1606742524996" />
     <state x="3789" y="91" key="SettingsEditor" timestamp="1603108947183">
       <screen x="3360" y="69" width="1920" height="1001" />
     </state>
@@ -301,13 +316,13 @@
       <screen x="-2560" y="-173" width="2560" height="1341" />
     </state>
     <state x="-1085" y="325" key="VCS.ChangelistChooser/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606657056071" />
-    <state x="-1947" y="90" key="Vcs.Push.Dialog.v2" timestamp="1606741530791">
+    <state x="-1947" y="90" key="Vcs.Push.Dialog.v2" timestamp="1606742084395">
       <screen x="-2560" y="-173" width="2560" height="1341" />
     </state>
     <state x="2533" y="301" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/1920.23.2560.1417/0.23.1920.995@1920.23.2560.1417" timestamp="1602077077141" />
     <state x="460" y="218" key="Vcs.Push.Dialog.v2/-1440.94.1440.877/-3360.-11.1920.1057/0.23.1920.994@0.23.1920.994" timestamp="1605011796143" />
     <state x="460" y="230" key="Vcs.Push.Dialog.v2/-148.1103.1440.831/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1605184646101" />
-    <state x="-1947" y="90" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606741530791" />
+    <state x="-1947" y="90" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606742084395" />
     <state x="3820" y="227" key="Vcs.Push.Dialog.v2/1920.70.1440.900/3360.15.1920.1080/0.0.1920.1080@3360.15.1920.1080" timestamp="1599488522467" />
   </component>
 </project>
