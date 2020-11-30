@@ -36,7 +36,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="c9aa784f8b2ad1c1debacc67450ec82e9bdbb162" />
+        <entry key="$PROJECT_DIR$" value="84d4936dfea243c5d92b8e0ffda7e580a85809aa" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -204,7 +204,7 @@
       <workItem from="1605011305877" duration="601000" />
       <workItem from="1605178968104" duration="1371000" />
       <workItem from="1606392782026" duration="2250000" />
-      <workItem from="1606741170383" duration="320000" />
+      <workItem from="1606741170383" duration="896000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605184644236</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test">
+      <created>1606741509412</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606741509412</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +273,8 @@
     <MESSAGE value="Add Lumen Gateway" />
     <MESSAGE value="Add AuthorController &amp;&amp; BookController In Gateway" />
     <MESSAGE value="Add consume Services In Gateway" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add consume Services In Gateway" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3417" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602505793300">
@@ -293,12 +301,13 @@
       <screen x="-2560" y="-173" width="2560" height="1341" />
     </state>
     <state x="-1085" y="325" key="VCS.ChangelistChooser/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606657056071" />
-    <state x="460" y="230" key="Vcs.Push.Dialog.v2" timestamp="1605184646101">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="-1947" y="90" key="Vcs.Push.Dialog.v2" timestamp="1606741530791">
+      <screen x="-2560" y="-173" width="2560" height="1341" />
     </state>
     <state x="2533" y="301" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/1920.23.2560.1417/0.23.1920.995@1920.23.2560.1417" timestamp="1602077077141" />
     <state x="460" y="218" key="Vcs.Push.Dialog.v2/-1440.94.1440.877/-3360.-11.1920.1057/0.23.1920.994@0.23.1920.994" timestamp="1605011796143" />
     <state x="460" y="230" key="Vcs.Push.Dialog.v2/-148.1103.1440.831/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1605184646101" />
+    <state x="-1947" y="90" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606741530791" />
     <state x="3820" y="227" key="Vcs.Push.Dialog.v2/1920.70.1440.900/3360.15.1920.1080/0.0.1920.1080@3360.15.1920.1080" timestamp="1599488522467" />
   </component>
 </project>
