@@ -19,9 +19,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Add consume Services In Gateway">
+    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Preparing the API Gateway to authenticate its requests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LumenGateway/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenBookAPI/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookAPI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenBookAPI/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenBookAPI/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/app/Http/Controllers/AuthorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/app/Http/Controllers/AuthorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/app/Traits/ApiResponser.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/app/Traits/ApiResponser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/app/Traits/ConsumesExternalService.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/app/Traits/ConsumesExternalService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <list id="e82a726b-e148-4a69-8dab-510822389aca" name="Add consume Services In Gateway" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,6 +181,9 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LumenGateway/app/Services" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/LumenGateway/app" />
       <recent name="$PROJECT_DIR$/LumenGateway/app/Http/Controllers" />
@@ -204,7 +217,23 @@
       <workItem from="1605011305877" duration="601000" />
       <workItem from="1605178968104" duration="1371000" />
       <workItem from="1606392782026" duration="2250000" />
-      <workItem from="1606741170383" duration="1509000" />
+      <workItem from="1606741170383" duration="1640000" />
+      <workItem from="1606991816675" duration="5642000" />
+      <workItem from="1607243979579" duration="99000" />
+      <workItem from="1607250012376" duration="5295000" />
+      <workItem from="1607338712192" duration="10578000" />
+      <workItem from="1607510551166" duration="3592000" />
+      <workItem from="1607597440021" duration="2696000" />
+      <workItem from="1608116992826" duration="1180000" />
+      <workItem from="1608164768290" duration="3000" />
+      <workItem from="1615287401718" duration="581000" />
+      <workItem from="1615377770277" duration="960000" />
+      <workItem from="1615804605343" duration="2127000" />
+      <workItem from="1615895211970" duration="495000" />
+      <workItem from="1615896749201" duration="22000" />
+      <workItem from="1615897116098" duration="835000" />
+      <workItem from="1615934513030" duration="3000" />
+      <workItem from="1615981910264" duration="2496000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <created>1599488520396</created>
@@ -255,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606742076137</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Preparing the API Gateway to authenticate its requests">
+      <created>1606742723472</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1606742723472</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +317,8 @@
     <MESSAGE value="Add AuthorController &amp;&amp; BookController In Gateway" />
     <MESSAGE value="Add consume Services In Gateway" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Preparing the API Gateway to authenticate its requests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Preparing the API Gateway to authenticate its requests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="3417" y="234" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602505793300">
@@ -304,10 +341,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="445" y="358" key="ComposerInitDialogKey/0.0.1440.900/-2560.-196.2560.1440@0.0.1440.900" timestamp="1606742239459" />
-    <state x="519" y="360" width="402" height="185" key="NewPhpFileDialog" timestamp="1606742524996">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-1855" y="183" key="NewPhpClassDialog" timestamp="1607257433633">
+      <screen x="-2560" y="-173" width="2560" height="1417" />
+    </state>
+    <state x="-1855" y="183" key="NewPhpClassDialog/0.23.1440.830/-2560.-173.2560.1417@-2560.-173.2560.1417" timestamp="1607257433633" />
+    <state x="-1637" y="364" width="402" height="179" key="NewPhpFileDialog" timestamp="1606993099529">
+      <screen x="-2560" y="-173" width="2560" height="1341" />
     </state>
     <state x="519" y="360" width="402" height="185" key="NewPhpFileDialog/0.0.1440.900/-2560.-196.2560.1440@0.0.1440.900" timestamp="1606742524996" />
+    <state x="-1637" y="364" width="402" height="179" key="NewPhpFileDialog/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606993099529" />
+    <state x="-1637" y="394" key="NewPhpFileDialog/0.23.1440.877/-2560.-173.2560.1417@-2560.-173.2560.1417" timestamp="1606992525267" />
     <state x="3789" y="91" key="SettingsEditor" timestamp="1603108947183">
       <screen x="3360" y="69" width="1920" height="1001" />
     </state>
@@ -316,12 +359,13 @@
       <screen x="-2560" y="-173" width="2560" height="1341" />
     </state>
     <state x="-1085" y="325" key="VCS.ChangelistChooser/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606657056071" />
-    <state x="-1947" y="90" key="Vcs.Push.Dialog.v2" timestamp="1606742084395">
-      <screen x="-2560" y="-173" width="2560" height="1341" />
+    <state x="345" y="177" key="Vcs.Push.Dialog.v2" timestamp="1606742737763">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="2533" y="301" key="Vcs.Push.Dialog.v2/-1440.23.1440.877/1920.23.2560.1417/0.23.1920.995@1920.23.2560.1417" timestamp="1602077077141" />
     <state x="460" y="218" key="Vcs.Push.Dialog.v2/-1440.94.1440.877/-3360.-11.1920.1057/0.23.1920.994@0.23.1920.994" timestamp="1605011796143" />
     <state x="460" y="230" key="Vcs.Push.Dialog.v2/-148.1103.1440.831/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1605184646101" />
+    <state x="345" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900/-2560.-196.2560.1440@0.0.1440.900" timestamp="1606742737763" />
     <state x="-1947" y="90" key="Vcs.Push.Dialog.v2/0.23.1440.877/-2560.-173.2560.1341@-2560.-173.2560.1341" timestamp="1606742084395" />
     <state x="3820" y="227" key="Vcs.Push.Dialog.v2/1920.70.1440.900/3360.15.1920.1080/0.0.1920.1080@3360.15.1920.1080" timestamp="1599488522467" />
   </component>

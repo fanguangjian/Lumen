@@ -32,3 +32,5 @@ php artisan migrate
 php artisan db:seed
 如有错误, 使用:
 php artisan migrate:fresh --seed
+
+php -S localhost:8001 -t .\public

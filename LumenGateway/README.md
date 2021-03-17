@@ -25,3 +25,10 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 
 
 composer require guzzlehttp/guzzle
+guzzlehttp/guzzle
+
+
+composer update
+
+ cd LumenGateway      
+ php -S localhost:8002 -t public

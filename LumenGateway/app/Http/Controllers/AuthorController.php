@@ -3,21 +3,27 @@
 namespace App\Http\Controllers;
 
 use App\Author;
-use App\Traits\ApiResponder;
+use App\Services\AuthorService;
+use App\Traits\ApiResponser;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 class AuthorController extends Controller
 {
-    use ApiResponder;
+    use ApiResponser;
+
+    /**
+     * @var AuthorService
+     */
+    public $authorService;
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(AuthorService $authorService)
     {
-        //
+        $this->authorService = $authorService;
     }
 
     /**
@@ -27,6 +33,9 @@ class AuthorController extends Controller
 
     public function index()
     {
+        return $this->successResponse(
+            $this->authorService->obtainAuthors()
+        );
     }
 
     /**

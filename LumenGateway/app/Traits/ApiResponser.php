@@ -15,7 +15,7 @@ trait ApiResponser
      * @Interface successResponse
      * @param $data
      * @param int $code, 200
-     * @return \Illuminate\Http\JsonResponse
+     * @return \Illuminate\Http\JsonResponse|Response|\Laravel\Lumen\Http\ResponseFactory
      */
     public function successResponse($data, $code = Response::HTTP_OK){
 //        return response()->json(['data' => $data], $code);
@@ -39,7 +39,7 @@ trait ApiResponser
      * @Interface errorResponse
      * @param $message
      * @param $code
-     * @return \Illuminate\Http\JsonResponse
+     * @return \Illuminate\Http\JsonResponse|Response|\Laravel\Lumen\Http\ResponseFactory
      */
 
     public function errorMessage($message, $code){

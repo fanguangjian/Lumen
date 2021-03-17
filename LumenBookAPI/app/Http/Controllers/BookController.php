@@ -40,6 +40,7 @@ class BookController extends Controller
             'price' => 'required|min:1',
             'author_id' => 'required|min:1',
         ];
+//        echo $rules;
         $this->validate($request, $rules);
         $book = Book::create($request->all());
         return $this->successResponse($book, Response::HTTP_CREATED);
@@ -61,8 +62,8 @@ class BookController extends Controller
     public function update(Request  $request, $book)
     {
         $rules = [
-            'title' => 'required|max:255',
-            'description' => 'required|max:255',
+//            'title' => 'required|max:255',
+//            'description' => 'required|max:255',
 //            'price' => 'min:1',
 //            'author_id' => 'min:1',
             'price' => 'required|min:1',
