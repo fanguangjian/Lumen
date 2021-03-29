@@ -41,6 +41,8 @@ class BookController extends Controller
             'author_id' => 'required|min:1',
         ];
 //        echo $rules;
+                echo "!!!!";
+
         $this->validate($request, $rules);
         $book = Book::create($request->all());
         return $this->successResponse($book, Response::HTTP_CREATED);
