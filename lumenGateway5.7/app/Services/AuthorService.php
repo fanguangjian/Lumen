@@ -4,26 +4,30 @@
  * @author     G.F
  * @ctime:     29/3/21 23:32
  */
-namespace  App\Services;
+namespace App\Services;
 
 use App\Traits\ConsumesExternalService;
 
-class AuthorService{
+class AuthorService
+{
     use ConsumesExternalService;
 
     public $baseUri;
 
-    public function __construct(){
+    public function __construct()
+    {
         $this->baseUri = config('services.authors.base_uri');
+//        $this->secret = config('services.authors.secret');
     }
 
     /**
-     * obtainAuthors, obtain the full list of author from the author services
-     * @throws \GuzzleHttp\Exception\GuzzleException
+     * Obtain the full list of author from the author service
+     * @return string
      */
     public function obtainAuthors()
     {
         return $this->performRequest('GET', '/authors');
+//        return  "SSSSS";
     }
 
 

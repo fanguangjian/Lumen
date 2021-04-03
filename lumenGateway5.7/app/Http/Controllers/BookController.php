@@ -1,9 +1,4 @@
 <?php
-/**
- * @subpackage Documentation\API
- * @author     G.F
- * @ctime:     29/3/21 22:30
- */
 
 namespace App\Http\Controllers;
 
@@ -13,27 +8,41 @@ use App\Traits\ApiResponser;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Validation\ValidationException;
+use App\Services\AuthorService;
+
 
 class BookController extends Controller
 {
     use ApiResponser;
     public $bookService;
+    public $authorService;
+
 
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct(BookService $bookService )
+    public function __construct(BookService $bookService, AuthorService $authorService)
     {
         $this->bookService = $bookService;
+        $this->authorService = $authorService;
     }
 
     public function index()
     {
-        $books = Book::all();
+//        $books = Book::all();
+////        return $this->successResponse($books);
 //        return $this->successResponse($books);
-        return $this->successResponse($books);
+
+
+        return $this->successResponse(
+            $this->bookService->obtainBooks()
+        );
+
+
+//        return "AAA";
+
     }
 
     /**

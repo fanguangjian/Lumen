@@ -1,49 +1,54 @@
 <?php
-/**
- * @subpackage Documentation\API
- * @author     G.F
- * @ctime:     29/3/21 22:41
- */
 
-namespace  App\Traits;
+namespace App\Traits;
 
 use Illuminate\Http\Response;
 
 trait ApiResponser
 {
     /**
-     * @Notes:
-     * @Interface successResponse
-     * @param $data
-     * @param int $code, 200
-     * @return \Illuminate\Http\JsonResponse|Response|\Laravel\Lumen\Http\ResponseFactory
+     * Build success response
+     * @param  string|array $data
+     * @param  int $code
+     * @return Illuminate\Http\Response
      */
-    public function successResponse($data, $code = Response::HTTP_OK){
+    public function successResponse($data, $code = Response::HTTP_OK)
+    {
+        return response($data, $code)->header('Content-Type', 'application/json');
 //        return response()->json(['data' => $data], $code);
-        return response($data, $code)->header('Content-Type','application/json');
 
     }
 
     /**
-     * @Notes:
-     * @Interface errorResponse
-     * @param $message
-     * @param $code
-     * @return \Illuminate\Http\JsonResponse
+     * Build valid response
+     * @param  string|array $data
+     * @param  int $code
+     * @return Illuminate\Http\JsonResponse
      */
-    public function errorResponse($message, $code){
+    public function validResponse($data, $code = Response::HTTP_OK)
+    {
+        return response()->json(['data' => $data], $code);
+    }
+
+    /**
+     * Build error responses
+     * @param  string|array $message
+     * @param  int $code
+     * @return Illuminate\Http\JsonResponse
+     */
+    public function errorResponse($message, $code)
+    {
         return response()->json(['error' => $message, 'code' => $code], $code);
     }
 
     /**
-     * @Notes:
-     * @Interface errorResponse
-     * @param $message
-     * @param $code
-     * @return \Illuminate\Http\JsonResponse|Response|\Laravel\Lumen\Http\ResponseFactory
+     * Build error responses
+     * @param  string|array $message
+     * @param  int $code
+     * @return Illuminate\Http\Response
      */
-
-    public function errorMessage($message, $code){
-        return response($message, $code)->header('Content-Type','application/json');
+    public function errorMessage($message, $code)
+    {
+        return response($message, $code)->header('Content-Type', 'application/json');
     }
 }

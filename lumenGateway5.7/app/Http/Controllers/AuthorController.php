@@ -1,9 +1,5 @@
 <?php
-/**
- * @subpackage Documentation\API
- * @author     G.F
- * @ctime:     29/3/21 22:27
- */
+
 namespace App\Http\Controllers;
 
 use App\Author;
@@ -17,6 +13,7 @@ class AuthorController extends Controller
     use ApiResponser;
 
     /**
+     * The service to consume the authors microservice
      * @var AuthorService
      */
     public $authorService;
@@ -32,46 +29,49 @@ class AuthorController extends Controller
     }
 
     /**
-     * @Notes:
-     * @Interface index
+     * Return the list of authors
+     * @return Illuminate\Http\Response
      */
-
     public function index()
     {
-          return $this->successResponse($this->authorService->obtainAuthors());
-//
-//        $authors = Author::all();
-////        return $this->successResponse($books);
-//        return $this->successResponse($authors);
-//
-//
-//        return "AAAA";
+        return $this->successResponse($this->authorService->obtainAuthors());
+//        return  "AAAA";
     }
 
+
     /**
-     * @Notes: 添加数据
+     * Create one new author
+     * @return Illuminate\Http\Response
      */
     public function store(Request $request)
     {
-
+//        return $this->successResponse($this->authorService->createAuthor($request->all(), Response::HTTP_CREATED));
     }
 
     /**
-     * @Notes:  根据Id查询一条
-     * @Interface show
+     * Obtains and show one author
+     * @return Illuminate\Http\Response
      */
     public function show($author)
     {
-
+//        return $this->successResponse($this->authorService->obtainAuthor($author));
     }
 
+    /**
+     * Update an existing author
+     * @return Illuminate\Http\Response
+     */
     public function update(Request $request, $author)
     {
-
+//        return $this->successResponse($this->authorService->editAuthor($request->all(), $author));
     }
 
+    /**
+     * Remove an existing author
+     * @return Illuminate\Http\Response
+     */
     public function destroy($author)
     {
-
+//        return $this->successResponse($this->authorService->deleteAuthor($author));
     }
 }
