@@ -1,0 +1,70 @@
+Index: lumenGateway5.7/app/Services/AuthorService.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n/**\n * @subpackage Documentation\\API\n * @author     G.F\n * @ctime:     29/3/21 23:32\n */\nnamespace App\\Services;\n\nuse App\\Traits\\ConsumesExternalService;\n\nclass AuthorService\n{\n    use ConsumesExternalService;\n\n    public $baseUri;\n\n    public function __construct()\n    {\n        $this->baseUri = config('services.authors.base_uri');\n//        $this->secret = config('services.authors.secret');\n    }\n\n    /**\n     * Obtain the full list of author from the author service\n     * @return string\n     */\n    public function obtainAuthors()\n    {\n        return $this->performRequest('GET', '/authors');\n//        return  \"SSSSS\";\n    }\n\n\n}
+===================================================================
+--- lumenGateway5.7/app/Services/AuthorService.php	(revision b62a64b06485bccbbd8ad385d1d51a32b2f8cda1)
++++ lumenGateway5.7/app/Services/AuthorService.php	(date 1617456966988)
+@@ -30,5 +30,19 @@
+ //        return  "SSSSS";
+     }
+ 
++    public  function createAuthor($data){
++        return $this->performRequest('POST', '/authors', $data);
++
++    }
++    public function obtainAuthor($author){
++        return $this->performRequest('GET', "/authors/{$author}");
++    }
++    public function editAuthor($data, $author){
++        return $this->performRequest('PUT',"/authors/{$author}", $data);
++    }
++    public function deleteAuthor( $author){
++        return $this->performRequest('DELETE',"/authors/{$author}");
++    }
++
+ 
+ }
+\ No newline at end of file
+Index: lumenGateway5.7/app/Http/Controllers/AuthorController.php
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?php\n\nnamespace App\\Http\\Controllers;\n\nuse App\\Author;\nuse App\\Traits\\ApiResponser;\nuse Illuminate\\Http\\Request;\nuse Illuminate\\Http\\Response;\nuse App\\Services\\AuthorService;\n\nclass AuthorController extends Controller\n{\n    use ApiResponser;\n\n    /**\n     * The service to consume the authors microservice\n     * @var AuthorService\n     */\n    public $authorService;\n\n    /**\n     * Create a new controller instance.\n     *\n     * @return void\n     */\n    public function __construct(AuthorService $authorService)\n    {\n        $this->authorService = $authorService;\n    }\n\n    /**\n     * Return the list of authors\n     * @return Illuminate\\Http\\Response\n     */\n    public function index()\n    {\n        return $this->successResponse($this->authorService->obtainAuthors());\n//        return  \"AAAA\";\n    }\n\n\n    /**\n     * Create one new author\n     * @return Illuminate\\Http\\Response\n     */\n    public function store(Request $request)\n    {\n//        return $this->successResponse($this->authorService->createAuthor($request->all(), Response::HTTP_CREATED));\n    }\n\n    /**\n     * Obtains and show one author\n     * @return Illuminate\\Http\\Response\n     */\n    public function show($author)\n    {\n//        return $this->successResponse($this->authorService->obtainAuthor($author));\n    }\n\n    /**\n     * Update an existing author\n     * @return Illuminate\\Http\\Response\n     */\n    public function update(Request $request, $author)\n    {\n//        return $this->successResponse($this->authorService->editAuthor($request->all(), $author));\n    }\n\n    /**\n     * Remove an existing author\n     * @return Illuminate\\Http\\Response\n     */\n    public function destroy($author)\n    {\n//        return $this->successResponse($this->authorService->deleteAuthor($author));\n    }\n}\n
+===================================================================
+--- lumenGateway5.7/app/Http/Controllers/AuthorController.php	(revision b62a64b06485bccbbd8ad385d1d51a32b2f8cda1)
++++ lumenGateway5.7/app/Http/Controllers/AuthorController.php	(date 1617456835729)
+@@ -45,7 +45,7 @@
+      */
+     public function store(Request $request)
+     {
+-//        return $this->successResponse($this->authorService->createAuthor($request->all(), Response::HTTP_CREATED));
++        return $this->successResponse($this->authorService->createAuthor($request->all(), Response::HTTP_CREATED));
+     }
+ 
+     /**
+@@ -54,7 +54,7 @@
+      */
+     public function show($author)
+     {
+-//        return $this->successResponse($this->authorService->obtainAuthor($author));
++        return $this->successResponse($this->authorService->obtainAuthor($author));
+     }
+ 
+     /**
+@@ -63,7 +63,7 @@
+      */
+     public function update(Request $request, $author)
+     {
+-//        return $this->successResponse($this->authorService->editAuthor($request->all(), $author));
++        return $this->successResponse($this->authorService->editAuthor($request->all(), $author));
+     }
+ 
+     /**
+@@ -72,6 +72,6 @@
+      */
+     public function destroy($author)
+     {
+-//        return $this->successResponse($this->authorService->deleteAuthor($author));
++        return $this->successResponse($this->authorService->deleteAuthor($author));
+     }
+ }
