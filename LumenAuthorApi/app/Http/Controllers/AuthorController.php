@@ -34,13 +34,13 @@ class AuthorController extends Controller
     }
 
     /**
-     * @Notes: 添加数据
+     * @Notes: 添加数据 female之前有space 报错
      */
     public function store(Request $request)
     {
         $rules = [
             'name' => 'required|max:255',
-            'gender' => 'required|max:255|in:male, female',
+            'gender' => 'required|max:255|in:male,female',
             'country' => 'required|max:255',
         ];
         $this->validate($request, $rules);
