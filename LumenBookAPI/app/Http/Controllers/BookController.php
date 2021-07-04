@@ -41,7 +41,7 @@ class BookController extends Controller
             'author_id' => 'required|min:1',
         ];
 //        echo $rules;
-                echo "!!!!";
+                echo "!! Book gateway";
 
         $this->validate($request, $rules);
         $book = Book::create($request->all());

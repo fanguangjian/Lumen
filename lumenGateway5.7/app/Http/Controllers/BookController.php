@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Author;
 use App\Book;
+use App\Services\AuthorService;
 use App\Traits\ApiResponser;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
@@ -19,13 +21,20 @@ class BookController extends Controller
     public $bookService;
 
     /**
+     * The service to consume the authors microservice
+     * @var authorService
+     */
+    public $authorService;
+
+    /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct(BookService $bookService)
+    public function __construct(BookService $bookService, AuthorService $authorService)
     {
         $this->bookService = $bookService;
+        $this->authorService = $authorService;
     }
 
     /**
@@ -45,6 +54,8 @@ class BookController extends Controller
      */
     public function store(Request $request)
     {
+//        check the existence of the author before creating the book
+        $this->authorService->obtainAuthor($request->author_id);
         return $this->successResponse($this->bookService->createBook($request->all(), Response::HTTP_CREATED));
     }
 
