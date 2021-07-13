@@ -19,7 +19,26 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Preparing the API Gateway to authenticate its requests" />
+    <list default="true" id="49b8fdb2-23d8-4be1-b8a6-d20480665772" name="Default Changelist" comment="Preparing the API Gateway to authenticate its requests">
+      <change beforePath="$PROJECT_DIR$/.idea/Lumen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Lumen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LumenGateway/app/Services/BookService.php" beforeDir="false" afterPath="$PROJECT_DIR$/LumenGateway/app/Services/BookService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/app/Http/Controllers/AuthorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/app/Http/Controllers/AuthorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/app/Services/AuthorService.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/app/Services/AuthorService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/app/Services/BookServices.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/app/Services/BookServices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/app/Traits/ApiResponser.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/app/Traits/ApiResponser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/app/Traits/ConsumesExternalService.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/app/Traits/ConsumesExternalService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/bootstrap/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/bootstrap/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/config/services.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/config/services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lumenGateway5.7/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/lumenGateway5.7/routes/web.php" afterDir="false" />
+    </list>
     <list id="e82a726b-e148-4a69-8dab-510822389aca" name="Add consume Services In Gateway" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,6 +303,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.BookController.php" />
         <item itemvalue="JavaScript Debug.BookController.php" />
       </list>
     </recent_temporary>
